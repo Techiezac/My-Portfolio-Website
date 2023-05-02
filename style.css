@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(53, 38, 38, 0.8)50%, rgba(53, 38, 38, 0.8)50%), url(pic3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600vh;
+}
+.navbar{ 
+    width: 1000px;
+    height: 80px;
+    margin:auto;  
+}
+.icons{
+    width: 190px;
+    float: left;
+    height: 65px;
+}
+.company-name{
+    color: rgb(248, 137, 156);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    margin-top:5px;
+    margin-left: -180px;
+}
+.motto{
+    font-weight: bold;
+    color: white;
+    margin-left: -130px;
+}
+.menu{
+    width:90px;
+    float: left;
+    height: 75px;
+    padding-top: 10px;   
+}
+ul{
+    float: left;
+    display:flex;
+}
+ul>li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 14px;
+}
+ul>li>a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ul>li>a:hover{
+    color:rgb(248, 137, 156);
+    font-size: 16px;
+    background-color: transparent;
+}
+.search{
+    width: 400px;
+    float: left;
+    margin-top: -66px;
+    margin-left: 900px;
+}
+.box{
+    width: 210px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:25px;
+    background:rgb(177, 164, 164);
+    border-radius:5px ;
+    color: white;
+    border: 1px solid rgb(248, 137, 156);;
+    border-right:none;
+    font-size: 14px;
+}
+.btn{
+    background: rgb(248, 137, 156);
+    height:23px;
+    width: 48px; 
+    border:2px solid rgb(248, 137, 156);
+    color: white;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.box:focus{
+    outline:none;
+}
+.content{
+    width: 900px;
+    float:left;
+    color:white;
+    height:auto;
+    margin-left:-120px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    margin-top:90px;
+}
+h2{ 
+    margin-bottom: 20px;
+}
+.job{
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+.soft{
+    width: 700px;
+}
+.content>h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+
+}
+.sub{
+    background: rgb(248, 137, 156);
+    margin-top:12px;
+}
+.sub:hover{
+    background: white;
+    color: rgb(248, 137, 156);
+    font-size: 11px;
+}
+.content .sub{
+    width: 100px;
+    height:30px;
+    border: none;
+    margin-left:10px;
+    font-size:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial;
+}
+button a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   transition: 0.5s ease-in-out;
+}
+button a:hover{
+     color:rgb(248, 137, 156);
+    font-size: 11px;
+}
+.content span{
+    color: rgb(248, 137, 156);
+}
+.form{
+    width: 240px;
+    height: 370px;
+    background:linear-gradient(to top, rgba(53, 38, 38, 0.8)50%, rgba(53, 38, 38, 0.8)50%);
+    position: absolute; 
+    top:-15px;
+    left: 950px;
+    border-radius:10px;
+    padding: 30px;
+}
+
+.form h2{
+    width:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background:rgb(248, 137, 156);
+    margin: 4px;
+    padding: 6x;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.form input{
+    width:200px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 1px solid rgb(248, 137, 156);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing:1px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+.form .link{
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(248, 137, 156);
+    border-width: 25px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+}
+.form .link a:hover{
+    color:rgb(197, 38, 38);
+    font-size: 13.5px;
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 200px ;
+    height:30px;
+    background: rgb(248, 137, 156);
+    border: none;
+    margin-top: 25px;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+}
+.btnn:hover{
+    background: white;
+    color: rgb(248, 137, 156);
+    font-size: 20px;
+}
+.login{
+    top:-10px;
+    padding-left: 2px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.icon a{ 
+    color: white;
+    text-decoration: none;
+}
+.icon i{
+    color: white;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+    transition: 0.5s;
+}
+.icon i:hover{
+    cursor: pointer;
+    color: rgb(248, 137, 156);
+    font-size: 26px;
+}
+
+.bodynavbar{
+    margin-top: 129px;
+    margin-left: -1039px;
+}
+.wrap1{
+    top: 98px;
+    background: #3a3a42;
+    width: 1355px;
+    height: 900px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 35px;
+}
+.about{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 25px;
+}
+   
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.pic{
+    margin-top: 20px;
+    margin-right:700px;
+    margin-left: 580px;
+}
+.pic-des{
+    margin-left:150px;
+    margin-top: 10px;
+    width: 1000px;
+}
+.wrap2{
+    text-align: center;
+    margin-top: -90px;
+    height: 900px;
+}
+.skills{
+    text-decoration: none;
+    color: rgb(248, 137, 156);
+    font-weight: bold;
+    font-family: Arial;
+    margin-top:110px;
+    padding-left: 120px;
+}
+.skill{
+    display: flex;
+    font-weight: bold;
+    font-style: italic;
+    width: 400px;
+    margin-left: 480px;
+    margin-top:5px;
+}
+.projects{
+    font-weight: bold;
+    font-family: Arial;
+}
+.project{
+    padding: 50px;
+    letter-spacing: 20px; 
+}
+.formm{
+   height: 300px;
+   width: 300px;
+}
+
+.faqs{
+    text-decoration: none;
+    color: rgb(248, 137, 156);
+    font-weight: bold;
+    font-family: Arial;
+    margin-top:20px;
+    text-align: center;
+    padding-left: 120px;
+}
+
+.faq{ 
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    padding-left:490px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
